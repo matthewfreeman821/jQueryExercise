@@ -11,3 +11,6 @@ $('#third').css('border', '3px dotted orange');
 $('div:first-of-type').css('color', 'pink');
 //This way also works, but is slower because it is native to jQuery, not CSS, the first option is more ideal
 //$('div:first').css('color', 'pink');
+
+//Update class of divs
+$('div').addClass('.update');
